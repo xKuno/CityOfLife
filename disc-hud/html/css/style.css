@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'pricedown';
+    src: url('../fonts/pricedown.ttf');
+}
+
+@font-face {
+    font-family: 'gta-ui';
+    src: url('../fonts/gta-ui.ttf');
+}
+
+body {
+    font-family: "pricedown", Verdana, Tahoma;
+    font-size: 40px;
+    overflow: hidden;
+    height:1080px;
+    width:100%;
+}
+
+
+.change {
+    height: 30px;
+    font-size: 30px;
+    width: fit-content;
+    max-width: 209;
+    overflow: hidden;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.positive {
+    color: rgb(255, 255, 255);
+}
+
+.negative {
+    color: rgb(255, 255, 255);
+}
+
+.car {
+    display: none;
+}
+
+.speed, .gas, .measurement-val {	
+    font-family: "gta-ui", Verdana, Tahoma;	
+    font-size: 60px;	
+    position: absolute;	
+    bottom: 4.68%;	
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;	
+    color: #ffffff;	
+    font-size: 100%;	
+}	
+.speed {	
+    left: 348px;
+}	
+.measurement-val {	
+    left: 402px;	
+}	
+
+.gas {
+    left: 476px;
+}
+
+.fuel-val, .speed-val {
+    color: rgb(69, 138, 247);
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    font-size: 125% !important;
+}
+
+.fuel-val.low {
+    color: rgb(255, 255, 255);
+}
+.speed-val.fast {
+    color: rgb(247, 134, 69);
+}
+
+.seatbelt, .cruise, .clock {
+    font-family: "gta-ui", Verdana, Tahoma;
+    font-size: 25px;
+    position: absolute;
+    bottom: 3%;
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+.clock {
+    left: 348px;
+}
+
+.seatbelt {
+    left: 423px;
+}
+
+.cruise {
+    left: 500px;
+}
+
+.clock {
+    color: rgb(255, 255, 255);
+}
+
+.ampm {
+    color: rgb(69, 138, 247);
+}
+
+.seatbelt.on, .cruise.on {
+    color: rgb(69, 138, 247);
+}
+
+.seatbelt.off, .cruise.off {
+    color: rgb(255, 255, 255);
+}
+
+.position {
+    font-family: "gta-ui", Verdana, Tahoma;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0.35%;
+    left: 348px;
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    color: #ffffff;
+}
+
+.seperator {
+    color: rgb(69, 138, 247);
+}
+
+.seperator2 {
+    color: rgb(69, 138, 247);
+}
